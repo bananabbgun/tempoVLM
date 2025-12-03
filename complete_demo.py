@@ -1217,7 +1217,7 @@ class CompleteDemoVisualizer:
     def visualize_occlusion_test(self, scene_dir, output_path, max_frames=40,
                                   occlusion_start=15, occlusion_end=25,
                                   occlusion_ratio=0.4, occlusion_type='black',
-                                  injection_method='full'):
+                                  injection_method='full', anomaly_threshold=0.25):
         """
         生成遮擋測試視覺化影片 - 介面風格仿照原版 visualization_demo.py
         
@@ -1230,6 +1230,7 @@ class CompleteDemoVisualizer:
             occlusion_ratio: 遮擋區域比例
             occlusion_type: 遮擋類型
             injection_method: 注入方法
+            anomaly_threshold: 異常檢測閾值 (預設 0.25)
         """
         print("\n🎬 生成遮擋測試視覺化...")
         
@@ -1243,7 +1244,7 @@ class CompleteDemoVisualizer:
         self.clear_temporal_buffer()
         
         # 初始化記憶緩衝區
-        memory_buffer = AdaptiveMemoryBuffer(max_size=8, anomaly_threshold=0.25)
+        memory_buffer = AdaptiveMemoryBuffer(max_size=8, anomaly_threshold=anomaly_threshold)
         
         frame_width = 1280
         frame_height = 720
@@ -1608,7 +1609,7 @@ class CompleteDemoVisualizer:
     
     def run_complete_demo(self, data_root, output_dir, split='test', max_scenes=3,
                           occlusion_start=15, occlusion_end=25, occlusion_ratio=0.4,
-                          occlusion_type='black', injection_method='full',
+                          occlusion_type='black', injection_method='full', anomaly_threshold=0.25,
                           demos=None):
         """
         執行完整 Demo
@@ -1729,7 +1730,8 @@ class CompleteDemoVisualizer:
                         occlusion_end=occlusion_end,
                         occlusion_ratio=occlusion_ratio,
                         occlusion_type=occlusion_type,
-                        injection_method=injection_method
+                        injection_method=injection_method,
+                        anomaly_threshold=anomaly_threshold
                     )
                     if stats:
                         # 保存詳細結果到 JSON
@@ -1888,6 +1890,8 @@ def main():
     parser.add_argument('--injection_method', type=str, default='full',
                        choices=['raw', 'full', 'strong', 'adaptive'],
                        help='注入方法')
+    parser.add_argument('--anomaly_threshold', type=float, default=0.25,
+                       help='異常檢測閾值 (越低越敏感)')
     
     args = parser.parse_args()
     
@@ -1912,6 +1916,7 @@ def main():
         occlusion_ratio=args.occlusion_ratio,
         occlusion_type=args.occlusion_type,
         injection_method=args.injection_method,
+        anomaly_threshold=args.anomaly_threshold,
         demos=demos
     )
 
