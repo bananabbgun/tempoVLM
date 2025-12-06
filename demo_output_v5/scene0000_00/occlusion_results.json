@@ -1,0 +1,435 @@
+{
+  "total_frames": 40,
+  "occluded_frames": 10,
+  "detected_anomalies": 10,
+  "detection_rate": 1.0,
+  "successful_injections": 10,
+  "occlusion_config": {
+    "start": 10,
+    "end": 20,
+    "ratio": 0.4,
+    "type": "black"
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "quality": 0.998828125,
+      "anomaly_score": 0.0,
+      "image_occlusion": 0.5041817502251299,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 1,
+      "quality": 0.9775518212999617,
+      "anomaly_score": 0.0,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 2,
+      "quality": 0.992117805140359,
+      "anomaly_score": 0.0,
+      "image_occlusion": 0.33189775186925113,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 3,
+      "quality": 0.9891517775399346,
+      "anomaly_score": 0.15535004763633878,
+      "image_occlusion": 0.4971858789136301,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 4,
+      "quality": 0.9937971310956137,
+      "anomaly_score": 0.15587728453403615,
+      "image_occlusion": 0.5094852431855567,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 5,
+      "quality": 0.993910938501358,
+      "anomaly_score": 0.15284495865905415,
+      "image_occlusion": 0.49707325417479314,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 6,
+      "quality": 0.9953160967145647,
+      "anomaly_score": 0.1520851237586549,
+      "image_occlusion": 0.4984512749683232,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 7,
+      "quality": 0.9909295456750054,
+      "anomaly_score": 0.11024375463144112,
+      "image_occlusion": 0.34900178990814845,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 8,
+      "quality": 0.9874989364828383,
+      "anomaly_score": 0.1612535111670474,
+      "image_occlusion": 0.5124138886944386,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 9,
+      "quality": 0.9899571810449873,
+      "anomaly_score": 0.1624391332028501,
+      "image_occlusion": 0.5208687910630282,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 10,
+      "quality": 0.9843839287757874,
+      "anomaly_score": 0.22250874442372212,
+      "image_occlusion": 0.7115156068574551,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.38817053344349267,
+        "memory_frame": 9,
+        "memory_score": 0.9666301011203036,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a folded blanket or clothing item placed on the floor next to a bed.",
+      "occluded_response": "The center of the image is black, obscuring any visible details.",
+      "injected_response": "I see a chair in the center of this image."
+    },
+    {
+      "frame": 11,
+      "quality": 0.9849617864404405,
+      "anomaly_score": 0.2230111250479392,
+      "image_occlusion": 0.7114712109828565,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.382683108289416,
+        "memory_frame": 9,
+        "memory_score": 0.952670227002457,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a painting hanging on the wall. The painting features a large, abstract design with shades of brown and black. The artwork is positioned against a plain white wall, and it appears to be a piece of modern or abstract art.",
+      "occluded_response": "The image shows a room with a guitar leaning against the wall.",
+      "injected_response": "The image shows a room with a wooden door on the left side, a wooden cabinet on the right side, and a wooden chair in the center."
+    },
+    {
+      "frame": 12,
+      "quality": 0.9721037183489118,
+      "anomaly_score": 0.24040168463096834,
+      "image_occlusion": 0.7431391298408581,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.37749964357015225,
+        "memory_frame": 9,
+        "memory_score": 0.9298034130433457,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a bathroom with a white pedestal sink. The sink is accompanied by a mirror above it and a towel rack with a green towel hanging on it. The bathroom has a light blue wall and a white toilet visible in the background.",
+      "occluded_response": "The image shows a bathroom with a wooden cabinet on the left side. The cabinet has three doors and is made of light-colored wood. The bathroom has a mirror on the right side, which reflects the sink and part of the bathroom. The sink is white and has a chrome faucet. There is a green towel hanging on the towel rack above the sink. The walls of the bathroom are painted in a light color, and the floor is tiled.",
+      "injected_response": "The image shows a bathroom with a wooden cabinet on the left side, a mirror above the sink, and a sink below the mirror."
+    },
+    {
+      "frame": 13,
+      "quality": 0.9828054794243404,
+      "anomaly_score": 0.22851322847819297,
+      "image_occlusion": 0.7263916399153063,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3712472343198016,
+        "memory_frame": 9,
+        "memory_score": 0.9210786865613956,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a white pedestal sink with a faucet. The sink is located in a bathroom, and the reflection in the mirror shows a toilet and some bathroom fixtures.",
+      "occluded_response": "The image shows a hallway with a wooden door on the left and a guitar hanging on the wall on the right. The hallway appears to be well-lit, with a light source coming from the doorway. The walls are painted in a light color, and there is a poster or artwork hanging on the wall to the right of the guitar.",
+      "injected_response": "The image shows a room with a wooden door and a wooden cabinet on the left side. The door is open, revealing a small portion of the room beyond."
+    },
+    {
+      "frame": 14,
+      "quality": 0.9774305369172778,
+      "anomaly_score": 0.2500807102389655,
+      "image_occlusion": 0.7698260743018501,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3701002598876898,
+        "memory_frame": 9,
+        "memory_score": 0.9062311777393297,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a white door with a white doorknob. The door is slightly ajar, revealing a small portion of the interior.",
+      "occluded_response": "The image shows a kitchen or utility area with the following objects:\n\n1. A white trash can with a lid.\n2. A beige doormat placed in front of a door.\n3. A wooden cabinet with two doors, likely a pantry or storage unit.\n4. A white refrigerator on the left side of the image.\n\nThe central part of the image is black, obscuring any details.",
+      "injected_response": "The image shows a small, plain room with a white door and a white trash can. The floor is tiled, and there is a wooden cabinet with a white door on the right side of the room."
+    },
+    {
+      "frame": 15,
+      "quality": 0.9859065498624529,
+      "anomaly_score": 0.19213867517306127,
+      "image_occlusion": 0.6114712109828564,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.32196818941088745,
+        "memory_frame": 9,
+        "memory_score": 0.898772043559279,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a white door with a wooden frame. The door has a doorknob on the right side and a small handle on the left side. The door appears to be closed.",
+      "occluded_response": "The image shows a kitchen or utility area with the following objects:\n\n1. **Refrigerator**: On the left side of the image, there is a white refrigerator with a wooden cabinet above it.\n2. **Trash Can**: In front of the refrigerator, there is a white trash can with a lid.\n3. **Door**: There is a white door with a wooden frame on the right side of the image. The door has a doorknob and a small handle on the right side.\n4. **Cabinets**: There are wooden cabinets on both sides of the image, with the cabinets on the left side being higher and the ones on the right side being lower.\n\nThe central black square obscures part of the image, making",
+      "injected_response": "The image shows a small, plain room with a white door and a white cabinet above it. The door has a simple, rectangular shape with a handle on the right side. The cabinet has a light brown finish and is positioned above the door. On the left side of the image, there is a white trash can with a closed lid. The room appears to be a utility or storage area, possibly a laundry room or a small office."
+    },
+    {
+      "frame": 16,
+      "quality": 0.9784586148602623,
+      "anomaly_score": 0.19687705131365574,
+      "image_occlusion": 0.6114712109828564,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3173267357132565,
+        "memory_frame": 9,
+        "memory_score": 0.8831869970541999,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a white door with a wooden frame. The door has two small, round doorknobs on each side. To the left of the door, there is a white trash can with a green lid. The floor in front of the door has a beige carpet. On the right side of the image, there is a wooden cabinet with multiple doors.",
+      "occluded_response": "The image shows a small, compact bathroom area. On the left side, there is a white trash can with a green lid. Next to the trash can, there is a small white bin with a green lid. The floor is covered with a beige carpet. On the right side, there is a wooden cabinet with a light brown finish. The cabinet has two doors and appears to be made of wood with a polished finish. The walls are painted in a light color, and there is a white door with a light-colored frame. The overall space appears to be organized and clean.",
+      "injected_response": "The image shows a small, compact room with a few key elements:\n\n1. **Cabinet**: On the right side of the image, there is a wooden cabinet with a set of drawers. The cabinet has a light brown finish and appears to be made of wood.\n\n2. **Cabinet Door**: The cabinet door is closed, and it has a light brown finish with a simple design.\n\n3. **Cabinet Handle**: There is a handle on the cabinet door, which is a simple, metallic design.\n\n4. **Cabinet Drawer**: Below the cabinet door, there is a drawer with a light brown finish. The drawer has a simple design and appears to be made of wood.\n\n5. **Cabinet Handle**: There is another handle"
+    },
+    {
+      "frame": 17,
+      "quality": 0.9824407015527997,
+      "anomaly_score": 0.19440302940203463,
+      "image_occlusion": 0.6114712109828564,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3146776434211041,
+        "memory_frame": 9,
+        "memory_score": 0.8771730097742696,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a white trash can placed next to a white refrigerator. The trash can is positioned on the floor, and the refrigerator is against the wall.",
+      "occluded_response": "The image shows a kitchen area with a refrigerator on the left side. The refrigerator has a black square in the middle, which appears to be a placeholder or a black screen. The kitchen has wooden cabinets, a tiled floor, and a white trash can next to the refrigerator. The door to the kitchen is visible on the right side of the image.",
+      "injected_response": "The image shows a small, compact kitchen or utility room. Here are the details:\n\n1. **Fridge**: A white refrigerator with a freezer compartment on the left side. The door has a handle and a small, rectangular sticker or label on the top left corner.\n2. **Cabinet**: A wooden cabinet with a light brown finish, located on the left side of the refrigerator. It has a drawer and a cabinet above it.\n3. **Trash Can**: A white trash can with a lid, located to the right of the refrigerator. The trash can has a small handle on the top right side.\n4. **Flooring**: The floor is tiled with light-colored tiles, possibly ceramic or porcelain. The tiles are arranged in a grid"
+    },
+    {
+      "frame": 18,
+      "quality": 0.9805016560213906,
+      "anomaly_score": 0.19593019952263374,
+      "image_occlusion": 0.6114882863192406,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3109291283448823,
+        "memory_frame": 9,
+        "memory_score": 0.865894534423695,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The center of the image shows a kitchen area with a tiled floor. On the left side, there is a wooden stool with a metal seat and backrest. In the background, there is a white refrigerator with a towel hanging on its handle. To the right of the refrigerator, there is a white trash can with a lid. The floor is tiled with square tiles, and the walls are painted in a light color.",
+      "occluded_response": "The image shows a kitchen area with a tiled floor and a white refrigerator. There are wooden stools at a counter, and a white trash can is located next to the refrigerator.",
+      "injected_response": "The image shows a small, cluttered kitchen or utility room. Here is a detailed description:\n\n1. **Flooring**: The floor is covered with light-colored, square tiles.\n2. **Cabinets**: There are two wooden cabinets on the left side of the image. The left cabinet has a white top, while the right cabinet has a light-colored top.\n3. **Stool**: There is a wooden stool with a white seat and backrest, positioned near the left cabinet.\n4. **Sink**: There is a sink visible in the background, located between the two cabinets.\n5. **Washing Machine**: A white washing machine is mounted on the wall to the right of the sink.\n6. **Trash Can**: There is"
+    },
+    {
+      "frame": 19,
+      "quality": 0.9808346918651036,
+      "anomaly_score": 0.2627644622492626,
+      "image_occlusion": 0.8383972049315223,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3542984984107313,
+        "memory_frame": 9,
+        "memory_score": 0.8609211448694094,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a blue sofa with several cushions and pillows on it. The sofa is positioned against a wooden cabinet or bookshelf, and there is a white countertop with a small table or bar stool next to it. The overall setting appears to be a living room or a casual seating area.",
+      "occluded_response": "The image shows a kitchen area with a blue sofa and a wooden counter with stools. The counter has a white countertop and a wooden base. There are also some books and a remote control on the counter. The floor is tiled with light-colored tiles.",
+      "injected_response": "The image shows a room with a wooden cabinet and a table. The cabinet has several shelves with various items on them, including books and possibly other decorative items. The table is a simple rectangular shape with a white top and a wooden frame. The room appears to be a living or study area, given the presence of the cabinet and the table."
+    },
+    {
+      "frame": 20,
+      "quality": 0.9879960136754173,
+      "anomaly_score": 0.0672045874595642,
+      "image_occlusion": 0.2,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 21,
+      "quality": 0.9879814275673457,
+      "anomaly_score": 0.1584913503234391,
+      "image_occlusion": 0.5042574442442275,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 22,
+      "quality": 0.9945781443800245,
+      "anomaly_score": 0.1576508594840594,
+      "image_occlusion": 0.5145459497272399,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 23,
+      "quality": 0.9952838693346296,
+      "anomaly_score": 0.15094184101135505,
+      "image_occlusion": 0.4958461900721316,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 24,
+      "quality": 0.988262231860842,
+      "anomaly_score": 0.16095292233167047,
+      "image_occlusion": 0.5117981719552793,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 25,
+      "quality": 0.98494986976896,
+      "anomaly_score": 0.10277607249195737,
+      "image_occlusion": 0.31151243206445917,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 26,
+      "quality": 0.9920661892209734,
+      "anomaly_score": 0.16158538108562867,
+      "image_occlusion": 0.5226159018111044,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 27,
+      "quality": 0.9913308169160571,
+      "anomaly_score": 0.11000365383537655,
+      "image_occlusion": 0.3499260149767679,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 28,
+      "quality": 0.9865914174488613,
+      "anomaly_score": 0.11337746143341064,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 29,
+      "quality": 0.9873193562030793,
+      "anomaly_score": 0.10431804325749924,
+      "image_occlusion": 0.32223790972002514,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 30,
+      "quality": 0.9863346559660775,
+      "anomaly_score": 0.11341761589050292,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 31,
+      "quality": 0.9905027551310404,
+      "anomaly_score": 0.15948770807338752,
+      "image_occlusion": 0.5130695278827679,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 32,
+      "quality": 0.9857097395828791,
+      "anomaly_score": 0.1003585055414852,
+      "image_occlusion": 0.304258021693765,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 33,
+      "quality": 0.9899622644696917,
+      "anomaly_score": 0.18204955447928287,
+      "image_occlusion": 0.5636529165847736,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 34,
+      "quality": 0.9961725796972003,
+      "anomaly_score": 0.17292847602095127,
+      "image_occlusion": 0.5090182939798888,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 35,
+      "quality": 0.9922892008508956,
+      "anomaly_score": 0.15570374653432917,
+      "image_occlusion": 0.5026454026730243,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 36,
+      "quality": 0.9893811242921013,
+      "anomaly_score": 0.11181006908416748,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 37,
+      "quality": 0.9866440653800965,
+      "anomaly_score": 0.11283265590667724,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 38,
+      "quality": 0.9837067425251007,
+      "anomaly_score": 0.11538972377777099,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 39,
+      "quality": 0.9789769964558739,
+      "anomaly_score": 0.11809701204299926,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    }
+  ]
+}

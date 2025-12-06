@@ -1,0 +1,534 @@
+{
+  "total_frames": 40,
+  "occluded_frames": 10,
+  "detected_anomalies": 10,
+  "detection_rate": 1.0,
+  "successful_injections": 20,
+  "occlusion_config": {
+    "start": 10,
+    "end": 20,
+    "ratio": 0.4,
+    "type": "black"
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "quality": 0.9990234434604646,
+      "anomaly_score": 0.0,
+      "image_occlusion": 0.5041817502251299,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 1,
+      "quality": 0.977803703716823,
+      "anomaly_score": 0.0,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 2,
+      "quality": 0.9921428646360124,
+      "anomaly_score": 0.0,
+      "image_occlusion": 0.33189775186925113,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 3,
+      "quality": 0.9891793148858208,
+      "anomaly_score": 0.15533205657035978,
+      "image_occlusion": 0.4971858789136301,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 4,
+      "quality": 0.9938144505023956,
+      "anomaly_score": 0.15586596918827197,
+      "image_occlusion": 0.5094852431855567,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 5,
+      "quality": 0.9941240361758641,
+      "anomaly_score": 0.15283334290588033,
+      "image_occlusion": 0.49707325417479314,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 6,
+      "quality": 0.9951316092695509,
+      "anomaly_score": 0.15207804749522716,
+      "image_occlusion": 0.4984512749683232,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 7,
+      "quality": 0.9911274697099413,
+      "anomaly_score": 0.11024205232278633,
+      "image_occlusion": 0.34900178990814845,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 8,
+      "quality": 0.9876883285386222,
+      "anomaly_score": 0.161257383084772,
+      "image_occlusion": 0.5124138886944386,
+      "is_anomaly": true,
+      "is_occluded": false,
+      "injection": {
+        "strength": 0.34263441621037954,
+        "memory_frame": 7,
+        "memory_score": 0.9753802570290244,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The image shows a bedroom with a bed and a rug. The bed is made up with a blue blanket and has a white headboard. The rug is placed in front of the bed and has a patterned design. In the background, there is a guitar leaning against a wall. The room appears to be well-lit, and the overall atmosphere is cozy and inviting.",
+      "occluded_response": "The image shows a bedroom with a bed and a rug. The bed is made up with a blue blanket and has a white headboard. The rug is placed in front of the bed and has a patterned design. In the background, there is a guitar leaning against a wall. The room appears to be well-lit, and the overall atmosphere is cozy and inviting.",
+      "injected_response": "The image shows a bedroom scene with a bed and a rug. The bed is positioned against a wall, and there is a wooden door to the left of the bed. The bed has a blue bedspread and a white headboard. The rug is placed on the floor in front of the bed, covering a portion of the floor."
+    },
+    {
+      "frame": 9,
+      "quality": 0.9881611227989198,
+      "anomaly_score": 0.1636125579236143,
+      "image_occlusion": 0.5208687910630282,
+      "is_anomaly": true,
+      "is_occluded": false,
+      "injection": {
+        "strength": 0.3367817522489746,
+        "memory_frame": 7,
+        "memory_score": 0.9572753686251365,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The center of the image shows a bed with a blue blanket and a brown headrest pillow. There is also a small table or nightstand next to the bed.",
+      "occluded_response": "The center of the image shows a bed with a blue blanket and a brown headrest pillow. There is also a small table or nightstand next to the bed.",
+      "injected_response": "The image depicts a neatly arranged bedroom or study area. Here is a detailed description:\n\n1. **Bed**: The central object in the image is a bed. It is made up with a blue blanket and a brown headboard. The bed has a wooden headboard and a wooden headboard with a black headboard.\n\n2. **Headboard**: The headboard is brown and has a rectangular shape. It is placed on the bed and provides support for the head.\n\n3. **Bed Frame**: The bed frame is made of wood and has a simple design. It is visible on the left side of the image.\n\n4. **Side Table**: There is a small side table next to the bed. It has a white surface and a drawer."
+    },
+    {
+      "frame": 10,
+      "quality": 0.984924577815192,
+      "anomaly_score": 0.22266594094548114,
+      "image_occlusion": 0.7115156068574551,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.37659731101198474,
+        "memory_frame": 7,
+        "memory_score": 0.9377193781065769,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a folded blanket or clothing item placed on the floor next to a bed.",
+      "occluded_response": "The center of the image is black, obscuring any visible details."
+    },
+    {
+      "frame": 11,
+      "quality": 0.9830649001257761,
+      "anomaly_score": 0.2241228160460166,
+      "image_occlusion": 0.7114712109828565,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.37066069962767234,
+        "memory_frame": 7,
+        "memory_score": 0.9221094449252556,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a painting hanging on the wall. The painting features a large, abstract design with shades of brown and black. The artwork is positioned against a plain white wall, and it appears to be a piece of modern or abstract art.",
+      "occluded_response": "The image shows a room with a guitar leaning against the wall.",
+      "injected_response": "The center of the image shows a black rectangular object, which appears to be a piece of furniture or a storage box."
+    },
+    {
+      "frame": 12,
+      "quality": 0.9712414903300148,
+      "anomaly_score": 0.24070980249748447,
+      "image_occlusion": 0.7431391298408581,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.36650976792729495,
+        "memory_frame": 7,
+        "memory_score": 0.9025651854623207,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a bathroom with a white pedestal sink. The sink is accompanied by a mirror above it and a towel rack with a green towel hanging on it. The bathroom has a light blue wall and a white toilet visible in the background.",
+      "occluded_response": "The image shows a bathroom with a wooden cabinet on the left side. The cabinet has three doors and is made of light-colored wood. The bathroom has a mirror on the right side, which reflects the sink and part of the bathroom. The sink is white and has a chrome faucet. There is a green towel hanging on the towel rack above the sink. The walls of the bathroom are painted in a light color, and the floor is tiled.",
+      "injected_response": "The image shows a bathroom with a sink and a mirror."
+    },
+    {
+      "frame": 13,
+      "quality": 0.9808887319905417,
+      "anomaly_score": 0.22938269096827477,
+      "image_occlusion": 0.7263916399153063,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3617512635756972,
+        "memory_frame": 7,
+        "memory_score": 0.8970398882192205,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a white pedestal sink with a faucet. The sink is located in a bathroom, and the reflection in the mirror shows a toilet and some bathroom fixtures.",
+      "occluded_response": "The image shows a hallway with a wooden door on the left and a guitar hanging on the wall on the right. The hallway appears to be well-lit, with a light source coming from the doorway. The door has a wooden frame and a knob. The guitar is hanging on the wall, leaning against the wall.",
+      "injected_response": "The image shows a room with a wooden door and a wooden cabinet."
+    },
+    {
+      "frame": 14,
+      "quality": 0.9756635589259011,
+      "anomaly_score": 0.2508523233599982,
+      "image_occlusion": 0.7698260743018501,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3608369577754419,
+        "memory_frame": 7,
+        "memory_score": 0.8831359907200313,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a white door with a white doorknob. The door is slightly ajar, revealing a small portion of the interior.",
+      "occluded_response": "The image shows a kitchen or utility area with the following objects:\n\n1. A white trash can with a lid.\n2. A beige doormat placed in front of a door.\n3. A wooden cabinet with two doors, likely a pantry or storage unit.\n4. A white refrigerator on the left side of the image.\n\nThe central part of the image is black, obscuring any details.",
+      "injected_response": "The center of the image shows a white trash can with a white lid and a white mat on the floor."
+    },
+    {
+      "frame": 15,
+      "quality": 0.9852239762033735,
+      "anomaly_score": 0.19271221967531957,
+      "image_occlusion": 0.6114712109828564,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.314811414764852,
+        "memory_frame": 7,
+        "memory_score": 0.878477496508796,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a white door with a wooden frame. The door has a doorknob on the right side and a small handle on the left side. The door appears to be closed.",
+      "occluded_response": "The image shows a kitchen or utility area with the following objects:\n\n1. **Refrigerator**: On the left side of the image, there is a white refrigerator with a wooden cabinet above it.\n2. **Trash Can**: In front of the refrigerator, there is a white trash can with a lid.\n3. **Door**: There is a white door with a wooden frame on the right side of the image. The door has a doorknob and a small handle on the right side.\n4. **Cabinets**: There are wooden cabinets on both sides of the image, with the cabinets on the left side being higher and the ones on the right side being lower.\n\nThe central black square obscures part of the image, making",
+      "injected_response": "The image shows a small, compact room with a few key elements:\n\n1. **Cabinet**: On the left side of the image, there is a wooden cabinet with a light brown finish. It has a rectangular shape and appears to be a storage unit.\n\n2. **Door**: To the right of the cabinet, there is a white door with a simple design. The door has a rectangular shape and is framed with a light brown wooden trim.\n\n3. **Trash Can**: In front of the door, there is a white trash can with a closed lid. The trash can is positioned on the floor and is located directly in front of the door.\n\n4. **Wall**: The wall behind the trash can is plain and light-colored, likely white"
+    },
+    {
+      "frame": 16,
+      "quality": 0.9786292033536095,
+      "anomaly_score": 0.19676560016466893,
+      "image_occlusion": 0.6114712109828564,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3109961741943267,
+        "memory_frame": 7,
+        "memory_score": 0.8656281288242369,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The center of the image shows a white door with two silver doorknobs. The door is framed by a light brown wooden door frame. To the left of the door, there is a white trash can with a green lid. The floor is covered with a beige carpet. On the right side of the image, there is a wooden cabinet with multiple doors.",
+      "occluded_response": "The image shows a small, compact bathroom area. On the left side, there is a white trash can with a green lid. Next to the trash can, there is a small white bin with a green lid. The floor is covered with a beige carpet. On the right side, there is a wooden cabinet with a light brown finish. The cabinet has two doors and appears to be made of wood with a polished finish. The walls are painted in a light color, and there is a white door with a light-colored frame. The overall space appears to be organized and clean.",
+      "injected_response": "The image shows a small, compact room with a few key elements:\n\n1. **Trash Can**: On the left side of the image, there is a white trash can with a green lid. The trash can is placed on a small, rectangular mat or rug.\n\n2. **Door**: The door in the center of the image is a white, wooden door with a simple design. It has a rectangular shape and is slightly ajar, revealing a bit of the room behind it.\n\n3. **Cabinet**: To the right of the door, there is a wooden cabinet with a light brown finish. The cabinet has a simple design with a single door and two small drawers on each side. The cabinet is closed, and there is a small,"
+    },
+    {
+      "frame": 17,
+      "quality": 0.9810623475483486,
+      "anomaly_score": 0.19504833789660253,
+      "image_occlusion": 0.6114712109828564,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3087001852700573,
+        "memory_frame": 7,
+        "memory_score": 0.8601625360343252,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a white trash can placed next to a white refrigerator. The trash can is positioned on the floor, and the refrigerator is against the wall.",
+      "occluded_response": "The image shows a kitchen area with a refrigerator, a trash can, and a door. The refrigerator is white and has a towel hanging on its handle. The trash can is white and is located next to the refrigerator. The door in the background appears to be a bathroom door, with a doorknob visible. The floor is tiled.",
+      "injected_response": "The image shows a kitchen or utility room with the following objects:\n\n1. **Refrigerator**: A white refrigerator with a freezer compartment on the left side. The freezer door is open, revealing some items inside.\n2. **Refrigerator Door**: The refrigerator door is open, revealing the freezer compartment.\n3. **Refrigerator Handle**: A white refrigerator handle is visible on the left side of the refrigerator.\n4. **Refrigerator Door Handle**: A white refrigerator door handle is visible on the right side of the refrigerator.\n5. **Refrigerator Door Shelf**: A white shelf is attached to the refrigerator door, likely for storing items.\n6. **Refrigerator Door Shelf**: Another white shelf"
+    },
+    {
+      "frame": 18,
+      "quality": 0.9803344777652194,
+      "anomaly_score": 0.19578421821083564,
+      "image_occlusion": 0.6114882863192406,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3057401178192248,
+        "memory_frame": 7,
+        "memory_score": 0.8515217487292586,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The center of the image shows a kitchen area with a tiled floor. There is a white refrigerator to the right, a white trash can to the left, and a wooden stool on the left side of the image. The kitchen appears to be well-lit and clean.",
+      "occluded_response": "The image shows a kitchen area with a tiled floor and a white refrigerator. There are wooden stools at a counter, and a white trash can is located next to the refrigerator.",
+      "injected_response": "The image shows a kitchen or utility room area. Here is a detailed description:\n\n1. **Flooring**: The floor is tiled with light-colored tiles, arranged in a grid pattern.\n2. **Cabinets**: There are two wooden cabinets on the left side of the image. The left cabinet has a white top, while the right cabinet has a light-colored top.\n3. **Stool**: There is a wooden stool with a white seat and backrest, positioned next to the left cabinet.\n4. **Refrigerator**: To the right of the stool, there is a white refrigerator with a light-colored handle. The refrigerator has a white top and a light-colored door.\n5. **Trash Can**: There is a white trash"
+    },
+    {
+      "frame": 19,
+      "quality": 0.9796635244573866,
+      "anomaly_score": 0.2637848293948009,
+      "image_occlusion": 0.8383972049315223,
+      "is_anomaly": true,
+      "is_occluded": true,
+      "injection": {
+        "strength": 0.3483646852818852,
+        "memory_frame": 7,
+        "memory_score": 0.8459832407890142,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a blue sofa with several cushions and pillows on it. The sofa is positioned against a wooden cabinet or bookshelf, and there is a white countertop with a small table or bar stool next to it. The overall setting appears to be a living room or a casual seating area.",
+      "occluded_response": "The image shows a kitchen area with a blue sofa and a wooden counter with stools. The counter has a white countertop and a wooden base. There are also some books and a remote control on the counter. The floor is tiled with light-colored tiles.",
+      "injected_response": "The image shows a room with a wooden cabinet and a table. The cabinet has several shelves with various items on them, including books and possibly other decorative items. The table is a simple rectangular shape with a white top and a wooden frame. The room appears to be a living or study area, given the presence of the cabinet and the table."
+    },
+    {
+      "frame": 20,
+      "quality": 0.986137536593846,
+      "anomaly_score": 0.068673996925354,
+      "image_occlusion": 0.2,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 21,
+      "quality": 0.9865700108664377,
+      "anomaly_score": 0.15966868034052897,
+      "image_occlusion": 0.5042574442442275,
+      "is_anomaly": true,
+      "is_occluded": false,
+      "injection": {
+        "strength": 0.34172198520356634,
+        "memory_frame": 20,
+        "memory_score": 0.9737737237570987,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a bicycle leaning against a wall. The bicycle is positioned in such a way that its front wheel is facing the wall, and its back wheel is facing the room. The bicycle appears to be a road bike, given its design and the presence of a saddle and handlebars.",
+      "occluded_response": "In the center of the image, there is a bicycle leaning against a wall. The bicycle is positioned in such a way that its front wheel is facing the wall, and its back wheel is facing the room. The bicycle appears to be a road bike, given its design and the presence of a saddle and handlebars.",
+      "injected_response": "The image shows a room with a tiled floor and a large, light-colored curtain covering the window. In the center of the image, there is a bicycle leaning against the wall. To the right of the bicycle, there is a piece of furniture that appears to be a couch or a sofa. On the floor near the bicycle, there is a backpack or a bag."
+    },
+    {
+      "frame": 22,
+      "quality": 0.9929982721805573,
+      "anomaly_score": 0.15868304265437802,
+      "image_occlusion": 0.5145459497272399,
+      "is_anomaly": true,
+      "is_occluded": false,
+      "injection": {
+        "strength": 0.33498650201803554,
+        "memory_frame": 20,
+        "memory_score": 0.9551838681214602,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The center of the image shows a small wooden coffee table with a shelf on top. The table has some items on it, including a book, a remote control, and a few other small objects. The table is situated in a corner of a room, with a chair and a curtain visible in the background.",
+      "occluded_response": "The center of the image shows a small wooden coffee table with a shelf on top. The table has some items on it, including a book, a remote control, and a few other small objects. The table is situated in a corner of a room, with a chair and a curtain visible in the background.",
+      "injected_response": "The image depicts a small, cluttered room with a desk and chair. The desk has a wooden frame and a shelf below it, holding various items such as a book and some papers. The chair is black and has a swivel base, and it is positioned in front of the desk. The room has a tiled floor and a curtain covering the window."
+    },
+    {
+      "frame": 23,
+      "quality": 0.993990671634674,
+      "anomaly_score": 0.15191432655365242,
+      "image_occlusion": 0.4958461900721316,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 24,
+      "quality": 0.9863212066037315,
+      "anomaly_score": 0.16222105883298274,
+      "image_occlusion": 0.5117981719552793,
+      "is_anomaly": true,
+      "is_occluded": false,
+      "injection": {
+        "strength": 0.34176780271440355,
+        "memory_frame": 23,
+        "memory_score": 0.9723131073388052,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The center of the image shows a tiled floor with a light beige color. There are also some decorative elements, such as small square patterns, on the floor.",
+      "occluded_response": "The center of the image shows a tiled floor with a light beige color. There are also some decorative elements, such as small square patterns, on the floor.",
+      "injected_response": "The image shows a tiled floor with a bicycle leaning against a wall."
+    },
+    {
+      "frame": 25,
+      "quality": 0.983008302961077,
+      "anomaly_score": 0.10378934668476744,
+      "image_occlusion": 0.31151243206445917,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 26,
+      "quality": 0.9920305592673166,
+      "anomaly_score": 0.16186387544369144,
+      "image_occlusion": 0.5226159018111044,
+      "is_anomaly": true,
+      "is_occluded": false,
+      "injection": {
+        "strength": 0.3406692059580986,
+        "memory_frame": 25,
+        "memory_score": 0.969409295918092,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The center of the image shows a wooden cabinet with a television mounted on its top. The cabinet has several shelves and is surrounded by wooden doors. The television is turned off and is positioned between the doors.",
+      "occluded_response": "The center of the image shows a wooden cabinet with a television mounted on its top. The cabinet has several shelves and is surrounded by wooden doors. The television is turned off and is positioned between the doors.",
+      "injected_response": "The image shows a small, cozy living room with a few key elements:\n\n1. **Bicycle**: There is a bicycle leaning against the wall on the left side of the room. The bicycle is positioned against a wooden cabinet or shelving unit.\n\n2. **Cabinet/Shelving Unit**: The cabinet/shelving unit is located against the wall, with a television mounted on the back wall. The shelves are filled with various items, including books and possibly other decorative items.\n\n3. **Television**: The television is mounted on the back wall of the cabinet/shelving unit. It is turned off and does not appear to be in use.\n\n4. **Couch**: There is a couch on the right side of the room."
+    },
+    {
+      "frame": 27,
+      "quality": 0.989287793636322,
+      "anomaly_score": 0.11146603710564022,
+      "image_occlusion": 0.3499260149767679,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 28,
+      "quality": 0.9839703730174474,
+      "anomaly_score": 0.11470706462860107,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 29,
+      "quality": 0.9860108596937998,
+      "anomaly_score": 0.10542813208272507,
+      "image_occlusion": 0.32223790972002514,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 30,
+      "quality": 0.9861988314560481,
+      "anomaly_score": 0.113378746509552,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 31,
+      "quality": 0.990162229537964,
+      "anomaly_score": 0.15996538923336065,
+      "image_occlusion": 0.5130695278827679,
+      "is_anomaly": true,
+      "is_occluded": false,
+      "injection": {
+        "strength": 0.3412596128672929,
+        "memory_frame": 30,
+        "memory_score": 0.9722711804950257,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "In the center of the image, there is a gray sofa with a cushion on it. The sofa is positioned against a wall, and there is a backpack on the floor next to it. The background shows a wooden floor.",
+      "occluded_response": "In the center of the image, there is a gray sofa with a cushion on it. The sofa is positioned against a wall, and there is a backpack on the floor next to it. The background shows a wooden floor.",
+      "injected_response": "The image shows a portion of a room with a large, light-colored sofa or couch. The sofa has a gray or light blue fabric and is positioned against a light-colored wall. On the right side of the sofa, there is a black bag or backpack placed on the floor. The floor is made of light-colored wood or laminate, and the overall setting appears to be a living room or a similar space."
+    },
+    {
+      "frame": 32,
+      "quality": 0.9829837339265006,
+      "anomaly_score": 0.10188429146448935,
+      "image_occlusion": 0.304258021693765,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 33,
+      "quality": 0.9886739637170519,
+      "anomaly_score": 0.18301885236517762,
+      "image_occlusion": 0.5636529165847736,
+      "is_anomaly": true,
+      "is_occluded": false,
+      "injection": {
+        "strength": 0.34451016201502144,
+        "memory_frame": 32,
+        "memory_score": 0.9672381812349407,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The center of the image shows a bicycle leaning against a wall. The bicycle has a white frame with red and black details, and it appears to be parked in a room with tiled flooring.",
+      "occluded_response": "The center of the image shows a bicycle leaning against a wall. The bicycle has a white frame with red and black details, and it appears to be parked in a room with tiled flooring.",
+      "injected_response": "The image shows a room with a tiled floor and a bicycle leaning against a wall. The bicycle has a white frame with red accents and black tires. There is a backpack on the floor to the left of the bicycle. The room appears to be a living area or a hallway, with a wooden table and some furniture in the background."
+    },
+    {
+      "frame": 34,
+      "quality": 0.9941278679030283,
+      "anomaly_score": 0.17426435439314364,
+      "image_occlusion": 0.5090182939798888,
+      "is_anomaly": true,
+      "is_occluded": false,
+      "injection": {
+        "strength": 0.3368731845310214,
+        "memory_frame": 32,
+        "memory_score": 0.951056377090086,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The center of the image shows a small wooden coffee table with a few items on it. The table has a shelf underneath it, and there are some books and possibly a remote control or a small electronic device on the shelf. The table is situated in a room with tiled flooring and a curtain in the background.",
+      "occluded_response": "The center of the image shows a small wooden coffee table with a few items on it. The table has a shelf underneath it, and there are some books and possibly a remote control or a small electronic device on the shelf. The table is situated in a room with tiled flooring and a curtain in the background.",
+      "injected_response": "The image shows a small, cluttered room with a wooden coffee table in the center. The table has a few items on it, including a book, a remote control, and some papers. To the left of the table, there is a wooden desk with a chair, and to the right, there is a curtain covering a window. The floor is tiled, and there are two pairs of shoes on the floor next to the table. The overall scene appears to be a casual, lived-in space."
+    },
+    {
+      "frame": 35,
+      "quality": 0.9914952388831546,
+      "anomaly_score": 0.15609486029241632,
+      "image_occlusion": 0.5026454026730243,
+      "is_anomaly": true,
+      "is_occluded": false,
+      "injection": {
+        "strength": 0.3279173080036545,
+        "memory_frame": 32,
+        "memory_score": 0.9365818851944208,
+        "scene_match": 1.0,
+        "memory_quality": 1.0
+      },
+      "gt_response": "The image shows a portion of a room with a bed and a rug. The bed is covered with a blue sheet and a blanket, and there is a guitar leaning against the wall to the left of the bed. The rug has a patterned design with a mix of green, beige, and red colors. The floor is tiled, and there is a white chair visible in the background.",
+      "occluded_response": "The image shows a portion of a room with a bed and a rug. The bed is covered with a blue sheet and a blanket, and there is a guitar leaning against the wall to the left of the bed. The rug has a patterned design with a mix of green, beige, and red colors. The floor is tiled, and there is a white chair visible in the background.",
+      "injected_response": "The image shows a portion of a room with a large, patterned rug in the center. The rug has a traditional design with geometric patterns and floral motifs. The rug is placed on a tiled floor, and there is a piece of furniture, possibly a bed or a couch, against the wall to the left. The furniture has a dark-colored cushion or cover on it. The overall setting appears to be a living room or a bedroom."
+    },
+    {
+      "frame": 36,
+      "quality": 0.9888545530182975,
+      "anomaly_score": 0.11177128314971924,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 37,
+      "quality": 0.9830334033284869,
+      "anomaly_score": 0.1151916217803955,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 38,
+      "quality": 0.9811826586723329,
+      "anomaly_score": 0.11716639995574951,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 39,
+      "quality": 0.9759809153420584,
+      "anomaly_score": 0.11992684364318848,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    }
+  ]
+}

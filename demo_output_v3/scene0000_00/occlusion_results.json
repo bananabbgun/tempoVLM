@@ -1,0 +1,335 @@
+{
+  "total_frames": 40,
+  "occluded_frames": 10,
+  "detected_anomalies": 0,
+  "detection_rate": 0.0,
+  "successful_injections": 0,
+  "occlusion_config": {
+    "start": 10,
+    "end": 20,
+    "ratio": 0.4,
+    "type": "black"
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "quality": 0.9990234434604646,
+      "anomaly_score": 0.0,
+      "image_occlusion": 0.5041817502251299,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 1,
+      "quality": 0.977803703716823,
+      "anomaly_score": 0.0,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 2,
+      "quality": 0.9921428646360124,
+      "anomaly_score": 0.0,
+      "image_occlusion": 0.33189775186925113,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 3,
+      "quality": 0.9891793148858208,
+      "anomaly_score": 0.15533205657035978,
+      "image_occlusion": 0.4971858789136301,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 4,
+      "quality": 0.9938144505023956,
+      "anomaly_score": 0.15586596918827197,
+      "image_occlusion": 0.5094852431855567,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 5,
+      "quality": 0.9941240361758641,
+      "anomaly_score": 0.15283334290588033,
+      "image_occlusion": 0.49707325417479314,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 6,
+      "quality": 0.9951316092695509,
+      "anomaly_score": 0.15207804749522716,
+      "image_occlusion": 0.4984512749683232,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 7,
+      "quality": 0.9911274697099413,
+      "anomaly_score": 0.11024205232278633,
+      "image_occlusion": 0.34900178990814845,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 8,
+      "quality": 0.9876883285386222,
+      "anomaly_score": 0.161257383084772,
+      "image_occlusion": 0.5124138886944386,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 9,
+      "quality": 0.9899343694959368,
+      "anomaly_score": 0.16245403674822975,
+      "image_occlusion": 0.5208687910630282,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 10,
+      "quality": 0.9852232992649079,
+      "anomaly_score": 0.12656159997922736,
+      "image_occlusion": 0.3918183525715457,
+      "is_anomaly": false,
+      "is_occluded": true
+    },
+    {
+      "frame": 11,
+      "quality": 0.9870786087853569,
+      "anomaly_score": 0.12559967432913824,
+      "image_occlusion": 0.3918017041185712,
+      "is_anomaly": false,
+      "is_occluded": true
+    },
+    {
+      "frame": 12,
+      "quality": 0.9775068751403264,
+      "anomaly_score": 0.13477783090958675,
+      "image_occlusion": 0.40367717369032174,
+      "is_anomaly": false,
+      "is_occluded": true
+    },
+    {
+      "frame": 13,
+      "quality": 0.9895715534687042,
+      "anomaly_score": 0.12501148178508867,
+      "image_occlusion": 0.3973968649682399,
+      "is_anomaly": false,
+      "is_occluded": true
+    },
+    {
+      "frame": 14,
+      "quality": 0.9849181507314955,
+      "anomaly_score": 0.14887696368269057,
+      "image_occlusion": 0.4500626530874523,
+      "is_anomaly": false,
+      "is_occluded": true
+    },
+    {
+      "frame": 15,
+      "quality": 0.9898362261908396,
+      "anomaly_score": 0.0937980309575562,
+      "image_occlusion": 0.29180170411857115,
+      "is_anomaly": false,
+      "is_occluded": true
+    },
+    {
+      "frame": 16,
+      "quality": 0.9883207142353059,
+      "anomaly_score": 0.09453296099600836,
+      "image_occlusion": 0.29180170411857115,
+      "is_anomaly": false,
+      "is_occluded": true
+    },
+    {
+      "frame": 17,
+      "quality": 0.990705578667777,
+      "anomaly_score": 0.09284724150595708,
+      "image_occlusion": 0.29180170411857115,
+      "is_anomaly": false,
+      "is_occluded": true
+    },
+    {
+      "frame": 18,
+      "quality": 0.9901385137013026,
+      "anomaly_score": 0.09347486104773706,
+      "image_occlusion": 0.2918081073697152,
+      "is_anomaly": false,
+      "is_occluded": true
+    },
+    {
+      "frame": 19,
+      "quality": 0.9876411293234144,
+      "anomaly_score": 0.16255604331066986,
+      "image_occlusion": 0.5183413685815461,
+      "is_anomaly": false,
+      "is_occluded": true
+    },
+    {
+      "frame": 20,
+      "quality": 0.991064933368138,
+      "anomaly_score": 0.0654547643661499,
+      "image_occlusion": 0.2,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 21,
+      "quality": 0.9887171830449786,
+      "anomaly_score": 0.15826586118388225,
+      "image_occlusion": 0.5042574442442275,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 22,
+      "quality": 0.9959808886051178,
+      "anomaly_score": 0.1567343999236651,
+      "image_occlusion": 0.5145459497272399,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 23,
+      "quality": 0.9954932962145124,
+      "anomaly_score": 0.15093261182815804,
+      "image_occlusion": 0.4958461900721316,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 24,
+      "quality": 0.9882881598813194,
+      "anomaly_score": 0.16093598269162532,
+      "image_occlusion": 0.5117981719552793,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 25,
+      "quality": 0.9845673050199236,
+      "anomaly_score": 0.10277079867298765,
+      "image_occlusion": 0.31151243206445917,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 26,
+      "quality": 0.992451742717198,
+      "anomaly_score": 0.16158870225643557,
+      "image_occlusion": 0.5226159018111044,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 27,
+      "quality": 0.99152158839362,
+      "anomaly_score": 0.11000662453087216,
+      "image_occlusion": 0.3499260149767679,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 28,
+      "quality": 0.9859856060573033,
+      "anomaly_score": 0.11339044570922852,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 29,
+      "quality": 0.9877183028629848,
+      "anomaly_score": 0.10431260254552414,
+      "image_occlusion": 0.32223790972002514,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 30,
+      "quality": 0.9861096799373628,
+      "anomaly_score": 0.11343699216842651,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 31,
+      "quality": 0.9909206816128322,
+      "anomaly_score": 0.15946986721111334,
+      "image_occlusion": 0.5130695278827679,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 32,
+      "quality": 0.985250813620431,
+      "anomaly_score": 0.10040313273112143,
+      "image_occlusion": 0.304258021693765,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 33,
+      "quality": 0.9902039212839944,
+      "anomaly_score": 0.18201928008810853,
+      "image_occlusion": 0.5636529165847736,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 34,
+      "quality": 0.996177637577057,
+      "anomaly_score": 0.17292517153944492,
+      "image_occlusion": 0.5090182939798888,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 35,
+      "quality": 0.9920932948589325,
+      "anomaly_score": 0.15570413038824152,
+      "image_occlusion": 0.5026454026730243,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 36,
+      "quality": 0.9887931942939758,
+      "anomaly_score": 0.11181137084960938,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 37,
+      "quality": 0.9866572465215411,
+      "anomaly_score": 0.11282404422760009,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 38,
+      "quality": 0.9839144246918816,
+      "anomaly_score": 0.11538164615631102,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    },
+    {
+      "frame": 39,
+      "quality": 0.9787919981139046,
+      "anomaly_score": 0.11809026956558227,
+      "image_occlusion": 0.35,
+      "is_anomaly": false,
+      "is_occluded": false
+    }
+  ]
+}

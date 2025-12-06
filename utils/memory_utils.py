@@ -154,8 +154,8 @@ class AdaptiveMemoryBuffer:
         # 極端顏色總比例
         extreme_ratio = black_ratio + white_ratio
         
-        if extreme_ratio > 0.3:
-            occlusion_score += 0.3 * min(extreme_ratio, 1.0)
+        if extreme_ratio > 0.25:
+            occlusion_score += 0.8 * min(extreme_ratio, 1.0)
         
         # ============================================================
         # 方法 2: 低紋理/低方差檢測（任何單色遮擋）
@@ -277,8 +277,8 @@ class AdaptiveMemoryBuffer:
         image_occlusion = self.detect_image_occlusion(image)
         
         # === 組合異常分數 ===
-        # 特徵層面和圖像層面各佔一半
-        anomaly_score = 0.5 * feature_anomaly + 0.5 * image_occlusion
+        # 特徵層面權重較高 (0.7)，因為它比較能反映語意變化
+        anomaly_score = 0.7 * feature_anomaly + 0.3 * image_occlusion
         
         # === Z-Score 動態閾值判斷 ===
         is_anomaly = self._check_anomaly_zscore(anomaly_score, feature_anomaly, image_occlusion)
@@ -303,7 +303,7 @@ class AdaptiveMemoryBuffer:
         
         # 冷啟動：使用固定閾值，但以圖像遮擋為主
         if len(self.anomaly_score_history) < min_history:
-            is_anomaly = image_occlusion > 0.45  # 冷啟動時閾值更高
+            is_anomaly = image_occlusion > 0.60  # 冷啟動時閾值更高 (0.45 -> 0.60)
             
             # 如果不是異常，加入歷史
             if not is_anomaly:
@@ -323,13 +323,14 @@ class AdaptiveMemoryBuffer:
         is_anomaly = False
         
         # 條件 1: 圖像遮擋分數絕對值很高（明確遮擋）
-        # 提高閾值從 0.30 到 0.50
-        if image_occlusion > 0.50:
+        # 條件 1: 圖像遮擋分數絕對值很高（明確遮擋）
+        # 提高閾值從 0.30 到 0.50 (v4: 回調到 0.50, v5: 用戶要求提高到 0.60)
+        if image_occlusion > 0.60:
             is_anomaly = True
         
         # 條件 2: 圖像有遮擋跡象 + 圖像 Z-Score 很高
-        # 提高 img 閾值從 0.15 到 0.25，z_score 閾值也提高
-        elif image_occlusion > 0.25 and img_z_score > self.z_score_threshold * 1.2:
+        # 提高 img 閾值從 0.25 到 0.35
+        elif image_occlusion > 0.35 and img_z_score > self.z_score_threshold * 1.2:
             is_anomaly = True
         
         # 條件 3: 圖像 Z-Score 極端高（很罕見的情況）

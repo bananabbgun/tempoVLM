@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-12-03T20:02:33.682810",
+  "total_scenes": 1,
+  "scenes": [
+    "scene0000_00"
+  ],
+  "occlusion_config": {
+    "start": 10,
+    "end": 20,
+    "ratio": 0.4,
+    "type": "black"
+  },
+  "outputs_per_scene": [
+    "temporal_consistency.mp4",
+    "depth_ordering.mp4",
+    "trajectory.mp4",
+    "occlusion_test.mp4",
+    "occlusion_results.json"
+  ],
+  "stats": {
+    "scene0000_00": {
+      "temporal_consistency": {
+        "base_mean_sim": 0.9507970841867583,
+        "unified_mean_sim": 0.9781620108655521,
+        "improvement": 2.878103765137195
+      },
+      "depth_ordering": {
+        "total_frames": 56
+      },
+      "depth_regression": {
+        "total_frames": 56,
+        "mean_error": 0.6890843510627747,
+        "errors": {
+          "left": 0.9657877683639526,
+          "center": 0.6182746887207031,
+          "right": 0.4831905961036682
+        }
+      },
+      "trajectory": {
+        "total_frames": 56,
+        "trajectory_length": 46.51496969470173,
+        "mean_ate": 3.134207468519719
+      },
+      "occlusion_test": {
+        "total_frames": 40,
+        "occluded_frames": 10,
+        "detected_anomalies": 10,
+        "detection_rate": 1.0,
+        "successful_injections": 20,
+        "occlusion_config": {
+          "start": 10,
+          "end": 20,
+          "ratio": 0.4,
+          "type": "black"
+        }
+      }
+    }
+  }
+}
