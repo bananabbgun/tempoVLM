@@ -26,9 +26,8 @@ def get_frame_str(raw_list):
 
 def main():
     parser = argparse.ArgumentParser()
-    # 預設模型路徑 (請確認 meow1 上是否真的有 checkpoints_gru_occ 資料夾，或是 checkpoints_unified)
-    # 建議先用 ls 確認一下
-    default_model = "./checkpoints_gru_occ/gru_checkpoint_epoch6.pt"
+    # 預設模型路徑 (已確認位於 models/checkpoints_gru_occ 下)
+    default_model = "./models/checkpoints_gru_occ/gru_checkpoint_epoch6.pt"
     parser.add_argument("--model_path", type=str, default=default_model, help="Path to model checkpoint")
     parser.add_argument("--dry_run", action="store_true", help="Print commands without running")
     args = parser.parse_args()
