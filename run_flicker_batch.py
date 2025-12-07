@@ -39,6 +39,12 @@ def main():
 
     print(f"====== Starting Batch Test ({len(SCENE_CONFIGS)} Scenes) ======")
     
+    # 設定 YOLO Config 路徑到 /tmp2 以避免 Disk Quota Exceeded
+    env = os.environ.copy()
+    env["YOLO_CONFIG_DIR"] = "/tmp2/b12902026/yolo_config"
+    if not os.path.exists(env["YOLO_CONFIG_DIR"]):
+        os.makedirs(env["YOLO_CONFIG_DIR"], exist_ok=True)
+            
     for scene_id, raw_frames in SCENE_CONFIGS.items():
         scene_name = f"scene{scene_id}_00"
         data_root = f"./scannet_data/scannet_frames_test/{scene_name}"
@@ -60,7 +66,7 @@ def main():
             print("Command:", " ".join(cmd))
         else:
             try:
-                subprocess.run(cmd, check=True)
+                subprocess.run(cmd, check=True, env=env)
             except subprocess.CalledProcessError as e:
                 print(f"[Error] Failed to run {scene_name}: {e}")
                 
