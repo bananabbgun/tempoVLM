@@ -57,7 +57,8 @@ def main():
             "--demos", "occlusion",
             "--occlusion_type", "yolo_all", # 雖然是 v6.1 Flickering，但保留使用者習慣的參數
             "--occlusion_frames", occlusion_frames,
-            "--max_scenes", "1"
+            "--max_scenes", "1",
+            "--max_frames", "120"
         ]
         
         print(f"\n[Running] {scene_name} with Occlusion: [{occlusion_frames}]")
